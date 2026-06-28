@@ -1,6 +1,6 @@
 // ToDo アプリ用 Service Worker（オフライン対応）
 // キャッシュ名にバージョンを含め、更新時に古いキャッシュを破棄する
-const CACHE = "todo-app-v1";
+const CACHE = "todo-app-v2";
 const APP_SHELL = ["/", "/manifest.webmanifest", "/icon-192.png", "/icon-512.png"];
 
 // インストール時にアプリシェルを事前キャッシュ
